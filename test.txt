@@ -1,2 +1,0 @@
-git is version control tool.
-git is distrubition tool.
