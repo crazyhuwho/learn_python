@@ -26,7 +26,7 @@ class person(object):
 			return "%s的血量为：%d,他有枪%s"%(self.name,self.hp,self.gun)
 		else:
 			if self.hp>0:
-					return "%s的血量为：%d,他没有枪"%(self.name,self.hp)
+				return "%s的血量为：%d,他没有枪"%(self.name,self.hp)
 			else:
 				return "%s已挂..."%self.name
 	def pull_trigger(self,enemy):
